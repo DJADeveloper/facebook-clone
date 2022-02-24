@@ -1,0 +1,40 @@
+.post {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+hr {
+  width: auto;
+}
+.feed__userPhoto {
+  object-fit: contain;
+  height: 50px;
+  width: auto;
+}
+
+.feed__inputField {
+  border: none;
+  background-color: whitesmoke;
+  border-radius: 30px;
+
+  margin-left: 10px;
+  outline: none !important;
+}
+.feed__inputField > input {
+  border: none;
+  outline: none;
+
+  background-color: whitesmoke;
+  font-size: large;
+  font-weight: 400;
+}
+.footer {
+  padding-left: 60px !important;
+}
+
+img {
+  border-radius: 30px;
+}

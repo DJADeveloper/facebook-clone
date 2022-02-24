@@ -1,0 +1,39 @@
+.storyline {
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+.storyline::-webkit-scrollbar {
+  display: none;
+}
+.storyCard {
+  height: 250px;
+  width: 150px;
+  border-radius: 8px !important;
+  padding: 10px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(120, 235, 250),
+    #40eec8
+  );
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+
+.storyCard > img {
+  height: 45px;
+  width: 45px;
+  object-fit: cover;
+  border-radius: 30px;
+  border: 5px solid#385899;
+}
+
+.storyCard > p {
+  font-size: 20px;
+}

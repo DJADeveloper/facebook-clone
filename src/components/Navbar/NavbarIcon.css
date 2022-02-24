@@ -1,0 +1,54 @@
+.navbarIcon {
+  width: 120px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+.navbarIcon:hover {
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.mainIcon {
+  font-size: 45px;
+  color: #385899;
+  cursor: pointer;
+}
+.mainIcon:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.notificationIcon {
+  margin-left: -18px;
+  margin-top: -22px;
+  font-size: 25px;
+}
+.avatar {
+  height: 40px;
+  width: 40px;
+}
+
+.personalIcons {
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.personalIcons:hover {
+  background-color: #385899;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 24px;
+}

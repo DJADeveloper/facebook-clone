@@ -1,0 +1,29 @@
+.accountSection {
+  /* flex: 0.2; */
+  position: sticky;
+  top: 85px;
+}
+.account__header > img {
+  border-radius: 30px;
+  height: 50px;
+}
+.sideIcon {
+  height: 150px;
+  margin-left: 10px;
+}
+.sidebarNavItem {
+  padding-right: 40px;
+  width: 300px;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: start;
+}
+.sidebarNavItem:hover {
+  background-color: lightgrey;
+}
+
+hr {
+  width: 300px;
+}
